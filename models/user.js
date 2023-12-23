@@ -12,8 +12,10 @@ const userSchema = new Schema(
       type: String,
       required: [true, "Set password for user"],
     },
-    
+
     progress: Number,
+    correct: Number,
+    status: Boolean,
     token: String,
   },
   { versionKey: false }

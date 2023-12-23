@@ -16,6 +16,8 @@ const login = async (req, res) => {
       ...req.body,
       password: hashPassword,
       progress: 1,
+      correct: 0,
+      status: false,
     });
 
     const payload = {
@@ -32,6 +34,8 @@ const login = async (req, res) => {
       user: {
         nickname: newUser.nickname,
         progress: newUser.progress,
+        correct: newUser.correct,
+        status: newUser.status,
       },
     });
   }
@@ -54,6 +58,8 @@ const login = async (req, res) => {
     user: {
       nickname: user.nickname,
       progress: user.progress,
+      correct: user.correct,
+      status: user.status,
     },
   });
 };
@@ -65,24 +71,52 @@ const logout = async (req, res) => {
 };
 
 const getCurrent = (req, res) => {
-  const { nickname, progress } = req.user;
+  const { nickname, progress, correct, status } = req.user;
 
   res.json({
     nickname,
     progress,
+    correct,
+    status,
   });
 };
 
 const updateProgress = async (req, res) => {
-  const { _id, progress } = req.user;
-  const result = await User.findByIdAndUpdate(_id, { progress: progress + 1 }, {
+  const { _id } = req.user;
+  const result = await User.findByIdAndUpdate(_id, req.body, {
     new: true,
   });
   if (!result) {
     throw HttpError(404);
   }
   res.json({
-    progress: result.progress
+    progress: result.progress,
+  });
+};
+
+const updateCorrectAnswers = async (req, res) => {
+  const { _id } = req.user;
+  const result = await User.findByIdAndUpdate(_id, req.body, {
+    new: true,
+  });
+  if (!result) {
+    throw HttpError(404);
+  }
+  res.json({
+    correct: result.correct,
+  });
+};
+
+const updateStatus = async (req, res) => {
+  const { _id } = req.user;
+  const result = await User.findByIdAndUpdate(_id, req.body, {
+    new: true,
+  });
+  if (!result) {
+    throw HttpError(404);
+  }
+  res.json({
+    status: result.status,
   });
 };
 
@@ -91,4 +125,6 @@ export default {
   logout: ctrlWrapper(logout),
   getCurrent: ctrlWrapper(getCurrent),
   updateProgress: ctrlWrapper(updateProgress),
+  updateCorrectAnswers: ctrlWrapper(updateCorrectAnswers),
+  updateStatus: ctrlWrapper(updateStatus),
 };

@@ -6,7 +6,7 @@ const testsRouter = express.Router();
 
 testsRouter.use(authenticate);
 
-testsRouter.get("/", testsControllers.getAll);
+testsRouter.get("/", testsControllers.getTestsLength);
 
 testsRouter.get("/:order", testsControllers.getByOrder);
 
