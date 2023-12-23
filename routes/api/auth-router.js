@@ -10,4 +10,8 @@ authRouter.post("/login", validateBody(usersLoginSchema), authControllers.login)
 
 authRouter.post("/logout", authenticate, authControllers.logout);
 
+authRouter.get("/current", authenticate, authControllers.getCurrent);
+
+authRouter.patch("/progress", authenticate, authControllers.updateProgress);
+
 export default authRouter;

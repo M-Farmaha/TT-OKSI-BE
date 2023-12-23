@@ -64,7 +64,31 @@ const logout = async (req, res) => {
   res.status(204).json();
 };
 
+const getCurrent = (req, res) => {
+  const { nickname, progress } = req.user;
+
+  res.json({
+    nickname,
+    progress,
+  });
+};
+
+const updateProgress = async (req, res) => {
+  const { _id, progress } = req.user;
+  const result = await User.findByIdAndUpdate(_id, { progress: progress + 1 }, {
+    new: true,
+  });
+  if (!result) {
+    throw HttpError(404);
+  }
+  res.json({
+    progress: result.progress
+  });
+};
+
 export default {
   login: ctrlWrapper(login),
   logout: ctrlWrapper(logout),
+  getCurrent: ctrlWrapper(getCurrent),
+  updateProgress: ctrlWrapper(updateProgress),
 };
