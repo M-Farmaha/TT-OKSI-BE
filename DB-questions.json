@@ -151,7 +151,7 @@
   },
   {
     "order": 21,
-    "text": "While he ... to London he saw an accident. ",
+    "text": "While he ... to London he saw an accident.",
     "options": ["was driving", "drives", "drove", "had driven"],
     "answer": "was driving"
   },
