@@ -1,0 +1,38 @@
+[
+  {
+    "order": 1,
+    "text": "We ... American.",
+    "options": ["not", "not are", "aren't", "isn't"],
+    "answer": "aren't"
+  },
+  {
+    "order": 2,
+    "text": "This is our new teacher. ... name is Mark.",
+    "options": ["Her", "Its", "He", "His"],
+    "answer": "His"
+  },
+  {
+    "order": 3,
+    "text": "... early in the morning?",
+    "options": ["Does he get up", "Gets he up", "Do he get up", "Get he up"],
+    "answer": "Does he get up"
+  },
+  {
+    "order": 4,
+    "text": "He ... to drive a car.",
+    "options": ["am learning", "learning", "is learning", "are learning"],
+    "answer": "is learning"
+  },
+  {
+    "order": 5,
+    "text": "A train is ... a bus.",
+    "options": ["more quickly", "quickly", "quicker than", "more quick"],
+    "answer": "quicker than"
+  },
+  {
+    "order": 6,
+    "text": "He ... swim very well.",
+    "options": ["not can", "cannot", "doesn't can", "don't can"],
+    "answer": "cannot"
+  }
+]
