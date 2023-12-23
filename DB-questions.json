@@ -34,5 +34,184 @@
     "text": "He ... swim very well.",
     "options": ["not can", "cannot", "doesn't can", "don't can"],
     "answer": "cannot"
+  },
+  {
+    "order": 7,
+    "text": "... the bus to work.",
+    "options": [
+      "Always Roberts catches",
+      "Roberts always catches",
+      "Roberts catches always",
+      "Roberts does always catches"
+    ],
+    "answer": "Roberts always catches"
+  },
+  {
+    "order": 8,
+    "text": "Peter works in London. ... .",
+    "options": [
+      "He goes there by train",
+      "He there goes by train",
+      "He goes by train there",
+      "There goes he by train"
+    ],
+    "answer": "He goes there by train"
+  },
+  {
+    "order": 9,
+    "text": "... TV last night?",
+    "options": [
+      "Did he watch",
+      "Watched he",
+      "Did he watched",
+      "Does he watch"
+    ],
+    "answer": "Did he watch"
+  },
+  {
+    "order": 10,
+    "text": "I ... born in 1992.",
+    "options": ["am", "was", "were", "is"],
+    "answer": "was"
+  },
+  {
+    "order": 11,
+    "text": "I’m going to see my ... Tuesday.",
+    "options": ["friend", "friend with", "friend on", "friend in"],
+    "answer": "friend on"
+  },
+  {
+    "order": 12,
+    "text": "She isn’t ... . I think she’s his cousin.",
+    "options": [
+      "sister's Mike",
+      "Mike sister's",
+      "Mike's sister",
+      "Mike sister"
+    ],
+    "answer": "Mike's sister"
+  },
+  {
+    "order": 13,
+    "text": "We sometimes eat dinner ... seven o'clock.",
+    "options": ["on", "in", "for", "at"],
+    "answer": "at"
+  },
+  {
+    "order": 14,
+    "text": "I spoke slowly, but he ... understand me.",
+    "options": ["canned not", "didn’t can", "didn’t could", "could not"],
+    "answer": "could not"
+  },
+  {
+    "order": 15,
+    "text": "... very cloudy today. Let’s hope it doesn’t rain.",
+    "options": ["They are", "There are", "It's", "This is"],
+    "answer": "It's"
+  },
+  {
+    "order": 16,
+    "text": "I asked him ... .",
+    "options": [
+      "to not go away",
+      "to go not away",
+      "not to go away",
+      "go not away"
+    ],
+    "answer": "not to go away"
+  },
+  {
+    "order": 17,
+    "text": "He used to live ... London.",
+    "options": ["on", "in", "to", "at"],
+    "answer": "in"
+  },
+  {
+    "order": 18,
+    "text": "James ... to him on the phone.",
+    "options": ["spoked", "speaked", "spoke", "spoken"],
+    "answer": "spoke"
+  },
+  {
+    "order": 19,
+    "text": "“Quiet, please – I ...”",
+    "options": [
+      "am doing a test!",
+      "do a test!",
+      "doing a test!",
+      "does a test!"
+    ],
+    "answer": "am doing a test!"
+  },
+  {
+    "order": 20,
+    "text": "The last time I ... Joanna was in Paris.",
+    "options": ["have seen", "saw", "see", "was seeing"],
+    "answer": "saw"
+  },
+  {
+    "order": 21,
+    "text": "While he ... to London he saw an accident. ",
+    "options": ["was driving", "drives", "drove", "had driven"],
+    "answer": "was driving"
+  },
+  {
+    "order": 22,
+    "text": "Millions of cigarettes ... every year.",
+    "options": ["is smoking", "are smoking", "are smoked", "are smoke"],
+    "answer": "are smoked"
+  },
+  {
+    "order": 23,
+    "text": "He has a ... experience in marketing in Europe.",
+    "options": ["grand", "wide", "large", "great"],
+    "answer": "wide"
+  },
+  {
+    "order": 24,
+    "text": "I remember ... him in London. ",
+    "options": ["of meeting", "to meet", "to meeting", "meeting"],
+    "answer": "meeting"
+  },
+  {
+    "order": 25,
+    "text": "But I saw him in Frankfurt ... .",
+    "options": [
+      "3 years ago",
+      "for 3 years",
+      "before 3 years",
+      "since 3 years"
+    ],
+    "answer": "3 years ago"
+  },
+  {
+    "order": 26,
+    "text": "Could you look ... the blackboard and read what is on it?",
+    "options": ["tp", "on", "for", "at"],
+    "answer": "at"
+  },
+  {
+    "order": 27,
+    "text": "We paid the restaurant bill ... credit card.",
+    "options": ["to", "with", "on", "by"],
+    "answer": "by"
+  },
+  {
+    "order": 28,
+    "text": "I ... a lot of sport in my free time.",
+    "options": ["do", "practise", "make", "exercise"],
+    "answer": "do"
+  },
+  {
+    "order": 29,
+    "text": "I won’t go to Cambridge if it ... tomorrow.",
+    "options": ["rain", "would rain", "rains", "raining"],
+    "answer": "rains"
+  },
+  {
+    "order": 30,
+    "text": "When I was a child, I ... climb the wall and jump into our neighbor's garden.",
+    "options": ["was", "used to", "did", "have"],
+    "answer": "used to"
   }
 ]
