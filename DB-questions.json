@@ -1,7 +1,7 @@
 [
   {
     "order": 1,
-    "text": "We ... American.",
+    "text": "We ... Americans.",
     "options": ["not", "not are", "aren't", "isn't"],
     "answer": "aren't"
   },
@@ -51,8 +51,8 @@
     "text": "Peter works in London. ... .",
     "options": [
       "He goes there by train",
-      "He there goes by train",
-      "He goes by train there",
+      "He there gone by train",
+      "He gone there by train",
       "There goes he by train"
     ],
     "answer": "He goes there by train"
