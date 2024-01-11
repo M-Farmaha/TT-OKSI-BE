@@ -213,5 +213,65 @@
     "text": "When I was a child, I ... climb the wall and jump into our neighbor's garden.",
     "options": ["was", "used to", "did", "have"],
     "answer": "used to"
+  },
+  {
+    "order": 31,
+    "text": "The last Olympic Games ... in Athens.",
+    "options": ["were helded", "was holded", "were held", "were hold"],
+    "answer": "were held"
+  },
+  {
+    "order": 32,
+    "text": "He took ... cheese.",
+    "options": ["all of", "all", "the all", "all of the"],
+    "answer": "all of the"
+  },
+  {
+    "order": 33,
+    "text": "I ... the Prime Minister’s speech very carefully.",
+    "options": ["heard to", "heard", "listened to", "overheard"],
+    "answer": "listened to"
+  },
+  {
+    "order": 34,
+    "text": "He would have known that, if he ... the meeting.",
+    "options": ["had attended", "would have attended", "has attended", "would attend"],
+    "answer": "had attended"
+  },
+  {
+    "order": 35,
+    "text": "Would you mind ... the door?",
+    "options": ["open", "to open", "opening", "to opening"],
+    "answer": "opening"
+  },
+  {
+    "order": 36,
+    "text": "... since I came back to the office?",
+    "options": ["Did Robinson telephoned", "Was Robinson telephoning", "Is Robinson telephoning", "Has Robinson telephoned"],
+    "answer": "Has Robinson telephoned"
+  },
+  {
+    "order": 37,
+    "text": "He made ... money last year.",
+    "options": ["many", "a great deal of", "lots", "a lot"],
+    "answer": "a great deal of"
+  },
+  {
+    "order": 38,
+    "text": "“Don’t do that,” I said. I ... him not to do that.",
+    "options": ["talked", "told", "spoke", "said"],
+    "answer": "told"
+  },
+  {
+    "order": 39,
+    "text": "He never takes risks. He’s a very ... man.",
+    "options": ["mindful", "anxious", "attentive", "cautious"],
+    "answer": "cautious"
+  },
+  {
+    "order": 40,
+    "text": "We ... lunch when you telephoned.",
+    "options": ["was having", "had", "were having", "are having"],
+    "answer": "were having"
   }
 ]
