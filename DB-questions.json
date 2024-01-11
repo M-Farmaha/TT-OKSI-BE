@@ -19,9 +19,9 @@
   },
   {
     "order": 4,
-    "text": "He ... to drive a car.",
-    "options": ["am learning", "learning", "is learning", "are learning"],
-    "answer": "is learning"
+    "text": "He ... learning to drive a car.",
+    "options": ["am", "has", "is", "are"],
+    "answer": "is"
   },
   {
     "order": 5,
@@ -48,14 +48,14 @@
   },
   {
     "order": 8,
-    "text": "Peter works in London. ... .",
+    "text": "Peter works in London. ... by train.",
     "options": [
-      "He goes there by train",
-      "He there gone by train",
-      "He gone there by train",
-      "There goes he by train"
+      "He goes there",
+      "He there gone",
+      "He gone there",
+      "There goes he"
     ],
-    "answer": "He goes there by train"
+    "answer": "He goes there"
   },
   {
     "order": 9,
@@ -76,9 +76,9 @@
   },
   {
     "order": 11,
-    "text": "I’m going to see my ... Tuesday.",
-    "options": ["friend", "friend with", "friend on", "friend in"],
-    "answer": "friend on"
+    "text": "I’m going to see my friend ... Tuesday.",
+    "options": ["to", "with", "on", "in"],
+    "answer": "on"
   },
   {
     "order": 12,
@@ -111,14 +111,14 @@
   },
   {
     "order": 16,
-    "text": "I asked him ... .",
+    "text": "I asked him ... away.",
     "options": [
-      "to not go away",
-      "to go not away",
-      "not to go away",
-      "go not away"
+      "to not go",
+      "to go not",
+      "not to go",
+      "go not"
     ],
-    "answer": "not to go away"
+    "answer": "not to go"
   },
   {
     "order": 17,
@@ -134,14 +134,14 @@
   },
   {
     "order": 19,
-    "text": "“Quiet, please – I ...”",
+    "text": "“Quiet, please – I ... a test!”",
     "options": [
-      "am doing a test!",
-      "do a test!",
-      "doing a test!",
-      "does a test!"
+      "am doing",
+      "do",
+      "doing",
+      "does"
     ],
-    "answer": "am doing a test!"
+    "answer": "am doing"
   },
   {
     "order": 20,
@@ -217,7 +217,7 @@
   {
     "order": 31,
     "text": "The last Olympic Games ... in Athens.",
-    "options": ["were helded", "was holded", "were held", "were hold"],
+    "options": ["were helded", "was holded", "were held", "was hold"],
     "answer": "were held"
   },
   {
@@ -273,5 +273,125 @@
     "text": "We ... lunch when you telephoned.",
     "options": ["was having", "had", "were having", "are having"],
     "answer": "were having"
+  },
+  {
+    "order": 41,
+    "text": "Your work is ... better and better.",
+    "options": ["being", "doing", "getting", "falling"],
+    "answer": "getting"
+  },
+  {
+    "order": 42,
+    "text": "I ... this test for at least half an hour now.",
+    "options": ["do", "am doing", "have done", "have been doing"],
+    "answer": "have been doing"
+  },
+  {
+    "order": 43,
+    "text": "I’ll speak to him when he ... .",
+    "options": ["will arrive", "is ariving", "arrives", "would arrive"],
+    "answer": "arrives"
+  },
+  {
+    "order": 44,
+    "text": "“Can you come tomorrow?” He asked ... come tomorrow.",
+    "options": ["if I", "will I", "if I could", "me"],
+    "answer": "if I could"
+  },
+  {
+    "order": 45,
+    "text": "He hasn’t come again today. If he doesn’t come, he ... what to do tomorrow.",
+    "options": ["wouldn’t know", "didn’t know", "will not have known", "won’t know"],
+    "answer": "won’t know"
+  },
+  {
+    "order": 46,
+    "text": "I ... wasted my time when I was at university.",
+    "options": ["regret", "shouldn't", "ought not to", "shouldn't have"],
+    "answer": "shouldn't have"
+  },
+  {
+    "order": 47,
+    "text": "... happens, I’ll always be there for you!",
+    "options": ["However ", "What", "Whatever", "No matter"],
+    "answer": "Whatever"
+  },
+  {
+    "order": 48,
+    "text": "It wasn't a bad crash and ... damage was done to my car.",
+    "options": ["light", "little", "small", "mere"],
+    "answer": "little"
+  },
+  {
+    "order": 49,
+    "text": "In August he ... for us for 25 years.",
+    "options": ["will have worked", "will work", "is going to work", "will be working"],
+    "answer": "will have worked"
+  },
+  {
+    "order": 50,
+    "text": "I’d like to put ... a suggestion, if I may.",
+    "options": ["through", "over", "across", "forward"],
+    "answer": "forward"
+  },
+  {
+    "order": 51,
+    "text": "Smith went abroad last year. He ... abroad before.",
+    "options": ["had been never", "had never been", "never went", "went never"],
+    "answer": "had never been"
+  },
+  {
+    "order": 52,
+    "text": "Who was ... the door?",
+    "options": ["at", "on", "in", "of"],
+    "answer": "at"
+  },
+  {
+    "order": 53,
+    "text": "I am ... to be picking Tom up at the station but I’ve lost my keys.",
+    "options": ["supposed", "requested", "intended", "obliged"],
+    "answer": "supposed"
+  },
+  {
+    "order": 54,
+    "text": "Can you believe it? A woman has been ... for hacking into the computer of her online virtual husband.",
+    "options": ["accused", "suspended", "arrested", "suspected"],
+    "answer": "arrested"
+  },
+  {
+    "order": 55,
+    "text": "It’s a huge painting. It ... taken ages to complete.",
+    "options": ["must have", "can’t have", "should have", "won’t have"],
+    "answer": "must have"
+  },
+  {
+    "order": 56,
+    "text": "He turned ... to be considerably older than I had imagined.",
+    "options": ["over", "up", "out", "round"],
+    "answer": "out"
+  },
+  {
+    "order": 57,
+    "text": "I’d lived in Australia, so I was used to ... on the left side of the road.",
+    "options": ["driving", "drive", "had driven", "drove"],
+    "answer": "driving"
+  },
+  {
+    "order": 58,
+    "text": "The windows in this house are in urgent ... of replacement.",
+    "options": ["need", "help", "want", "demand"],
+    "answer": "need"
+  },
+  {
+    "order": 59,
+    "text": "The version of the film I saw had been ... censored.",
+    "options": ["strongly", "deeply", "great", "heavily"],
+    "answer": "heavily"
+  },
+  {
+    "order": 60,
+    "text": "Joe’s fear of enclosed spaces ... from a bad experience he had when he was a child.",
+    "options": ["leads", "flows", "steams", "starts"],
+    "answer": "steams"
   }
 ]
