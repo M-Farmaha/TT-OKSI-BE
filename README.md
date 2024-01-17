@@ -38,8 +38,6 @@ This is a repository that uses the following technologies:
 - **express**
 - **mongoBD / mongoose**
 
-
-
 ## How to Contribute
 
 If you wish to make your own fixes or improvements, you should:
